@@ -7,7 +7,7 @@
 
 }
 
-.message__bubble {
+.bubble {
   position: relative;
   width: 300px;
   padding: 10px;
@@ -23,7 +23,7 @@
 
 }
 
-.message__bubble:before {
+.bubble:before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -34,30 +34,30 @@
   background: radial-gradient(60px at top left, transparent 49%, #4d5156 51%) no-repeat right bottom;
 }
 
-.message__text {
+.avatar {
   display: flex;
   flex-direction: column;
 }
 
-.message-text__name {
+.text__name {
   font-size: 20px;
   color: #d294d4;
   margin: 0;
   margin-bottom: 5px;
 }
 
-.message-text__message {
+.text__message {
   font-size: 18px;
   margin: 0;
 
 }
 
-.message-text__time {
+.text__time {
   font-size: 18px;
   color: #aed1ae;
 }
 
-.message__avatar {
+.avatar {
   width: 60px;
   height: 60px;
   border-radius: 50%;

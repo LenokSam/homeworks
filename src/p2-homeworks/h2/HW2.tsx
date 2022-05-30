@@ -15,6 +15,8 @@ const defaultAffairs: any = [ // need to fix any
     {_id: 5, name: 'html & css', priority: 'middle'},
 ]
 
+
+
 // pure helper functions
 export const filterAffairs = (affairs: any, filter: any): any => { // need to fix any
     if (filter === 'all') return affairs

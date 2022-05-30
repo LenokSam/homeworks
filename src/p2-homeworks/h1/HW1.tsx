@@ -1,5 +1,5 @@
 import React from 'react'
-import Message from "./Message";
+import Message from './Message';
 
 export type MessageType = {
   avatar: string
@@ -8,11 +8,14 @@ export type MessageType = {
   time: string
 }
 
-const messageData: MessageType = {
+let spreadElements = {
   avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
   name: 'Some Name',
   message: 'some text ',
-  time: '22:00',
+  time: '22:00'
+};
+const messageData: MessageType = {
+  ...spreadElements,
 }
 
 
@@ -20,6 +23,7 @@ function HW1() {
   return (
     <div>
       <hr/>
+      `
 
       <Message
         avatar={messageData.avatar}
