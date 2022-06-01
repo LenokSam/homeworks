@@ -1,13 +1,12 @@
 import React, {useState} from 'react'
 import Affairs from './Affairs'
-import s from './Affairs.module.css'
 
 // types
 export type AffairPriorityType = 'high' | 'low' | 'middle'
 export type AffairType = {
   _id: number
   name: string
-  priority: string
+  priority: AffairPriorityType
 }
 export type FilterType = 'all' | AffairPriorityType
 export type DefaultAffairsType = Array<AffairType>
