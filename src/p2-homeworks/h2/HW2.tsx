@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Affairs from './Affairs'
+import s from './Affairs.module.css'
 
 // types
 export type AffairPriorityType = 'high' | 'low' | 'middle'

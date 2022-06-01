@@ -1,6 +1,7 @@
 import React from 'react'
 import {AffairType} from './HW2';
 import s from './Affairs.module.css'
+import {MdHighlightOff} from 'react-icons/md'
 
 type AffairPropsType = {
 
@@ -20,7 +21,9 @@ function Affair(props: AffairPropsType) {
       <span className={s.name}> {name}</span>
       <span className={s.priority}> {priority}</span>
 
-      <button onClick={deleteCallback} className={s.button__delete}>X</button>
+      <button onClick={deleteCallback} className={s.button__delete}>
+        <MdHighlightOff size={'30px'}/>
+      </button>
     </div>
   )
 }
