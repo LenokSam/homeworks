@@ -1,3 +1,30 @@
 .someClass {
 
 }
+
+.name {
+  margin: 10px;
+  padding: 5px;
+  background-color: rgba(255, 105, 80, 0.8);
+  border-radius: 5px;
+  width: 150px;
+}
+
+.priority {
+  padding: 5px;
+  margin: 10px;
+  background-color: rgba(220, 20, 60, 0.8);
+  border-radius: 5px;
+  width: 90px;
+}
+
+.affair {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button__delete {
+  background-color: rgb(165, 42, 42);
+  border-radius: 50%;
+}
