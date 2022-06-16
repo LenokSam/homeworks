@@ -18,13 +18,14 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
 
 
   const addUser = () => {
-    if (name.length === 0) setError('Enter your name')
-    else {
+    let nameToSet = name.trim()
+    if (nameToSet) {
       alert(`Hello ${name} ! `)
-      addUserCallback(name)
+      addUserCallback(name.trim())
       setName('')
       setError('')
-    }
+    } else setError('Enter your name')
+
   }
 
   const totalUsers = users.length
