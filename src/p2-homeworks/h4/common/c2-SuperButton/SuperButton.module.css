@@ -1,7 +1,24 @@
 .default {
+  background: #F5B9D2;
 
 }
 
 .red {
-    background: red;
+  background: red;
+}
+
+.button {
+  color: #000;
+  text-decoration: none;
+  padding: .7em 1.5em;
+  outline: none;
+  border: none;
+  margin: 5px;
+  /*border-radius: 5px;*/
+
+
+}
+
+button:disabled {
+  background: #B9BCC9FF;
 }

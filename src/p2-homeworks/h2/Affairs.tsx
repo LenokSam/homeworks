@@ -2,6 +2,7 @@ import React from 'react'
 import Affair from './Affair'
 import {AffairType, DefaultAffairsType, FilterType} from './HW2'
 import s from './Affairs.module.css'
+import SuperButton from '../h4/common/c2-SuperButton/SuperButton';
 
 type AffairsPropsType = {
   data: DefaultAffairsType
@@ -19,32 +20,37 @@ function Affairs(props: AffairsPropsType) {
     />
   ))
 
-  const setAll = () => {
-    setFilter('all')
-  } // need to fix
-  const setHigh = () => {
-    setFilter('high')
-
-  }
-  const setMiddle = () => {
-    setFilter('middle')
-
-  }
-  const setLow = () => {
-    setFilter('low')
-
-  }
-
   return (
     <div className={s.affair__list}>
 
       {mappedAffairs}
 
       <div className={s.filters}>
-        <button className={s.btn__filter} onClick={setAll}>All</button>
-        <button className={s.btn__filter} onClick={setHigh}>High</button>
-        <button className={s.btn__filter} onClick={setMiddle}>Middle</button>
-        <button className={s.btn__filter} onClick={setLow}>Low</button>
+        <SuperButton
+          onClick={() => setFilter('all')}
+          className={s.btn__filter}
+        >
+          All
+        </SuperButton>
+        <SuperButton
+          onClick={() => setFilter('high')}
+          className={s.btn__filter}
+        >
+          High
+        </SuperButton>
+        <SuperButton
+          onClick={() => setFilter('middle')}
+          className={s.btn__filter}
+        >
+          Middle
+        </SuperButton>
+        <SuperButton
+          onClick={() => setFilter('low')}
+          className={s.btn__filter}
+        >
+          Low
+        </SuperButton>
+
       </div>
     </div>
   )

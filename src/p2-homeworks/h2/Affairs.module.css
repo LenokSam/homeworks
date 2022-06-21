@@ -9,7 +9,6 @@
   flex-direction: row;
   justify-content: flex-start;
   padding-left: 20px;
-
 }
 
 .name {
@@ -45,17 +44,21 @@
 .button__delete {
   border: none;
   outline: none;
-  background: none;
-  padding: 0;
+  background: none !important;;
+  color: red !important;
+  padding: 0 !important;
 }
 
 .btn__filter {
   border: 2px solid rgb(92, 44, 89);
   width: 60px;
-  background-color: rgba(138, 73, 134, 0.8);
-  color: white;
-  margin: 5px;
-  padding: 5px;
+  background-color: rgba(138, 73, 134, 0.8) !important;
+  color: white !important;
+  margin: 5px !important;
+  padding: 5px !important;
   border-radius: 5px;
+}
 
+.active {
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
