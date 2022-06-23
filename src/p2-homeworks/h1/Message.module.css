@@ -31,7 +31,7 @@
   display: block;
   width: 30px;
   height: 30px;
-  background: radial-gradient(60px at top left, transparent 49%, #4d5156 51%) no-repeat right bottom;
+  background: radial-gradient(60px at top left, transparent 49%, rgba(77, 81, 86, 0.8) 51%) no-repeat right bottom;
 }
 
 .avatar {
