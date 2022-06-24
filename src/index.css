@@ -31,5 +31,16 @@ code {
   text-decoration: none;
   color: #181818;
   font-weight: bold;
-  border-bottom: 2px solid #F1A1B1;
+  margin-bottom: 10px;
 }
+
+.title__hw span {
+  padding: 5px;
+  text-decoration: none;
+  color: #181818;
+  font-weight: bold;
+  border-bottom: 2px solid #F1A1B1;
+  margin-bottom: 10px;
+}
+
+

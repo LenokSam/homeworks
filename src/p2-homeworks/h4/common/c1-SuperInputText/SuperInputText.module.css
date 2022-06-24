@@ -1,25 +1,25 @@
 .superInput {
   display: block;
-  margin: 10px;
-  padding: 0 10px;
+  padding-left: 10px;
   background: #FFF;
   line-height: 30px;
   border-radius: 5px;
   font-family: 'Roboto', sans-serif;
   outline: none;
-  border: 1px solid #838996
+  border: 1px solid #838996;
+  margin: 5px;
 }
 
 .errorInput {
   display: block;
-  margin: 10px;
   padding: 0 10px;
   background: #FFF;
   line-height: 30px;
   border-radius: 5px;
   font-family: 'Roboto', sans-serif;
   outline: none;
-  border: 1px solid red
+  border: 1px solid red;
+  margin: 5px;
 }
 
 .error {

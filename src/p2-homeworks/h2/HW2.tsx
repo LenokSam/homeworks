@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Affairs from './Affairs'
+import AlternativeAffairs from './AlternativeAffairs';
 
 // types
 export type AffairPriorityType = 'high' | 'low' | 'middle'
@@ -20,7 +21,6 @@ const defaultAffairs: DefaultAffairsType = [ // need to fix any
 ]
 
 
-// pure helper functions
 export const filterAffairs = (affairs: DefaultAffairsType, filter: FilterType): DefaultAffairsType => {
   if (filter === 'all') return affairs
   else return affairs.filter(a => a.priority === filter)
@@ -38,17 +38,22 @@ function HW2() {
   return (
     <div>
       <hr/>
-      <span className={'title__hw'}>HOMEWORK 2</span>
+      <div className={'title__hw'}><span>HOMEWORK 2</span></div>
 
-      <Affairs
+      {/*<Affairs*/}
+      {/*  data={filteredAffairs}*/}
+      {/*  setFilter={setFilter}*/}
+      {/*  deleteAffairCallback={deleteAffairCallback}*/}
+      {/*/>*/}
+
+      {/*<hr/>*/}
+      {/*/!*для личного творчества, могу проверить*!/*/}
+      <AlternativeAffairs
         data={filteredAffairs}
         setFilter={setFilter}
         deleteAffairCallback={deleteAffairCallback}
+        filter={filter}
       />
-
-      <hr/>
-      {/*для личного творчества, могу проверить*/}
-      {/*<AlternativeAffairs/>*/}
       <hr/>
     </div>
   )

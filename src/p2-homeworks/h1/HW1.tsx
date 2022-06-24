@@ -18,7 +18,7 @@ function HW1() {
   return (
     <div>
       <hr/>
-      <span className={'title__hw'}>HOMEWORK 1</span>
+      <div className={'title__hw'}><span>HOMEWORK 1</span></div>
 
       <Message
         avatar={messageData.avatar}

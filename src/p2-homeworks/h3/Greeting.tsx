@@ -31,7 +31,7 @@ const Greeting: React.FC<GreetingPropsType> = (
       <div>
         <SuperButton
           onClick={addUser}
-          className={s.btn}
+          className={s.btn__add}
         >
           Add
         </SuperButton>
