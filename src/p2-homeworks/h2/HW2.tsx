@@ -38,7 +38,7 @@ function HW2() {
   return (
     <div>
       <hr/>
-      homeworks 2
+      <span className={'title__hw'}>HOMEWORK 2</span>
 
       <Affairs
         data={filteredAffairs}

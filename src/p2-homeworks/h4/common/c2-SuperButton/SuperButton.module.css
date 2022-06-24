@@ -4,21 +4,23 @@
 }
 
 .red {
-  background: red;
+  background: #C90C22 !important;
 }
 
 .button {
-  color: #000;
   text-decoration: none;
-  padding: .7em 1.5em;
   outline: none;
   border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: #F1A1B1;
+  color: #FFFFFF !important;
   margin: 5px;
-  /*border-radius: 5px;*/
-
-
+  font-size: 20px;
 }
 
 button:disabled {
-  background: #B9BCC9FF;
+  background: #B7BEC9;
+  color: #4D5058 !important;
 }

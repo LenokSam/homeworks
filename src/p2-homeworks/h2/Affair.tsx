@@ -1,8 +1,9 @@
 import React from 'react'
 import {AffairType} from './HW2';
 import s from './Affairs.module.css'
-import {MdHighlightOff} from 'react-icons/md'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton';
+import Delete from './Delete';
+import deleteImmg from './delete.png'
 
 type AffairPropsType = {
 
@@ -19,14 +20,18 @@ function Affair(props: AffairPropsType) {
 
   return (
     <div className={s.affair}>
-      <span className={s.name}> {name}</span>
-      <span className={s.priority}> {priority}</span>
-
+      <div className={s.affair__wrapper}>
+        <span className={s.name}> {name}</span>
+        <div className={'row'}>
+          <span className={s.circle}></span>
+          <span className={s.priority}> {priority}</span>
+        </div>
+      </div>
       <SuperButton
         onClick={deleteCallback}
         className={s.button__delete}
       >
-        <MdHighlightOff size={'30px'}/>
+        <img src={deleteImmg} style={{width: '20px'}}/>
       </SuperButton>
 
     </div>

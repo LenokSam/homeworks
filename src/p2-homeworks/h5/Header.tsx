@@ -14,9 +14,12 @@ function Header() {
 
   return (
     <div className={s.wrapper}>
-      <span className={s.title}>
+      <NavLink
+        className={s.title}
+        to={'/'}
+      >
         REACT HOMEWORKS
-      </span>
+      </NavLink>
       <div className={s.links}>
         <NavLink className={finalLinkClassName}
                  to={PATH.PRE_JUNIOR}
