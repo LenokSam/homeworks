@@ -22,7 +22,7 @@ function Affair(props: AffairPropsType) {
     <div className={s.affair}>
       <div className={s.affair__wrapper}>
         <span className={s.name}> {name}</span>
-        <div className={'row'}>
+        <div className={s.priority__wrapper}>
           <span className={s.circle}></span>
           <span className={s.priority}> {priority}</span>
         </div>
