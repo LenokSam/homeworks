@@ -34,8 +34,7 @@ function Affair(props: AffairPropsType) {
         <img src={deleteImmg} style={{width: '20px'}}/>
       </SuperButton>
 
-    </div>
-  )
+    </div>)
 }
 
 export default Affair

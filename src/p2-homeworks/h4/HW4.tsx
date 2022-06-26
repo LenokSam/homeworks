@@ -54,7 +54,6 @@ function HW4() {
           DISABLED
         </SuperButton>
 
-        {/*----------------------------------------------------*/}
 
         <SuperCheckbox
           checked={checked}
@@ -63,7 +62,6 @@ function HW4() {
           some text {/*// этот текст попадёт в children*/}
         </SuperCheckbox>
 
-        {/*// onChange тоже должен работать*/}
         <SuperCheckbox checked={checked} onChange={testOnChange}/>
       </div>
 
