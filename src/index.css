@@ -41,6 +41,7 @@ code {
   font-weight: bold;
   border-bottom: 2px solid #F1A1B1;
   margin-bottom: 10px;
+  display: inline-block;
 }
 
 

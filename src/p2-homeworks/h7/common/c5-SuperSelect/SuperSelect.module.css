@@ -1,0 +1,16 @@
+.option {
+  background-color: #F5DCD1;
+}
+
+.select {
+  font-size: inherit;
+  text-decoration: none;
+  outline: none;
+  padding: 5px;
+  border: 2px solid #F5DCD1;
+  margin: 5px;
+  border-radius: 5px;
+  text-indent: 0.01px;
+  text-overflow: '';
+  min-width: 100px;
+}
