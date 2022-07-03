@@ -1,0 +1,9 @@
+.span {
+  display: inline-block;
+  border: 2px solid #CADFCF;
+  padding: 5px;
+  border-radius: 4px;
+  background: #FEFEFE;
+  color: #231F20;
+  max-width: 300px;
+}
