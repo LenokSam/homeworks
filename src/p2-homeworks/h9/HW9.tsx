@@ -4,15 +4,11 @@ import Clock from './Clock'
 function HW9() {
   return (
     <div>
-      <hr/>
-      <div className={'title__hw'}><span>HOMEWORK 8</span></div>
 
-      {/*should work (должно работать)*/}
+      <div className={'title__hw'}><span>HOMEWORK 9</span></div>
+
       <Clock/>
 
-      <hr/>
-      {/*для личного творчества, могу проверить*/}
-      {/*<AlternativeClock/>*/}
       <hr/>
     </div>
   )
